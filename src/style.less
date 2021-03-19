@@ -1,0 +1,51 @@
+.yAxis .domain {
+  opacity: 0;
+}
+
+.yAxis .tick line {
+  opacity: 0;
+}
+
+.xAxis .domain {
+  opacity: 0.3;
+}
+
+.xAxis .tick line {
+  opacity: 0.3;
+}
+
+.xAxis .tick text, .yAxis .tick text {
+  opacity: 0.6;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  user-select:none;
+}
+
+.legend {
+  cursor: pointer;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  user-select:none;
+}
+
+.serie .line {
+  z-index: 2;
+}
+
+.d3-chart-tooltip {
+  position: absolute;
+  border-style: solid;
+  z-index: 9999999;
+  transition: left 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s, top 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  background-color: rgba(50, 50, 50, 0.7);
+  border-width: 0px;
+  border-color: rgb(51, 51, 51);
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  font: 12px/18px sans-serif;
+  padding: 5px;
+  max-width: 500px;
+  white-space: nowrap;
+  overflow: visible;
+}
+

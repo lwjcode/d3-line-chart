@@ -1,0 +1,37 @@
+{
+  "name": "d3-line-chart",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "license": "UNLICENSED",
+  "main": "./src/index",
+  "scripts": {
+    "dev": "npm run start",
+    "start": "fetk run devServer",
+    "compile": "fetk run compile",
+    "lint": "fetk run lint",
+    "tsc": "tsc",
+    "commit": "npx git-cz"
+  },
+  "dependencies": {
+    "d3": "^4.11.0",
+    "lodash": "^4.0.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "babel-plugin-import": "^1.12.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "fetk": "^0.1.0",
+    "antd": "3.x",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
